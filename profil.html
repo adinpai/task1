@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    /* Menu */
+    nav {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section 2 */
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      background-color: #e0e7ff;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .intro-text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .intro img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    /* Section 3 */
+    .biodata {
+      padding: 40px;
+      background-color: #fff;
+    }
+
+    .biodata table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .biodata th, .biodata td {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: left;
+    }
+
+    .biodata th {
+      background-color: #f0f0f0;
+    }
+
+    /* Section 4 */
+    .portfolio {
+      padding: 40px;
+    }
+
+    .portfolio h2 {
+      margin-bottom: 20px;
+    }
+
+    .portfolio table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .portfolio th, .portfolio td {
+      border: 1px solid #ccc;
+      padding: 15px;
+    }
+
+    .portfolio th {
+      background-color: #f0f0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu -->
+  <nav>
+    <a href="#intro">Beranda</a>
+    <a href="#biodata">Biodata</a>
+    <a href="#portfolio">Portofolio</a>
+  </nav>
+
+  <!-- Section 2: Intro -->
+  <section id="intro" class="intro">
+    <div class="intro-text">
+      <h1>Halo, Saya Adin Pai</h1>
+      <p>Seorang Web Developer yang senang belajar hal baru dan membangun aplikasi yang bermanfaat.</p>
+    </div>
+    <img src="" alt="Foto Profil">
+  </section>
+
+  <!-- Section 3: Biodata -->
+  <section id="biodata" class="biodata">
+    <h2>Biodata</h2>
+    <table>
+      <tr>
+        <th>Nama Lengkap</th>
+        <td>Adin Pai</td>
+        <th>Tempat, Tanggal Lahir</th>
+        <td>Bandung, 1 Januari 2000</td>
+      </tr>
+      <tr>
+        <th>Jenis Kelamin</th>
+        <td>Laki-laki</td>
+        <th>Agama</th>
+        <td>Islam</td>
+      </tr>
+      <tr>
+        <th>Alamat</th>
+        <td colspan="3">Jl. Contoh Alamat No. 123, Bandung</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Section 4: Portofolio -->
+  <section id="portfolio" class="portfolio">
+    <h2>Portofolio</h2>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Judul Proyek</th>
+        <th>Deskripsi</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Website Toko Online</td>
+        <td>Membangun e-commerce sederhana menggunakan HTML, CSS, dan JS.</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Aplikasi To-Do List</td>
+        <td>Aplikasi manajemen tugas pribadi berbasis web.</td>
+        <td>2024</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Adin Pai. Dibuat dengan HTML dan semangat belajar.
+  </footer>
+
+</body>
+</html>
